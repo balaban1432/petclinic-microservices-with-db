@@ -9,5 +9,5 @@ curl -SL https://github.com/docker/compose/releases/download/v2.17.3/docker-comp
 chmod +x /usr/local/bin/docker-compose
 dnf install git -y
 dnf install java-11-amazon-corretto -y
-cd /home/ec2-user && git clone https://github.com/clarusway/petclinic-microservices-with-db.git
+cd /home/ec2-user && git clone https://github.com/balaban1432/petclinic-microservices-with-db.git
 git checkout dev
